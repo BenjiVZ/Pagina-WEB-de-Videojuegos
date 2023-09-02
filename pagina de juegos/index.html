@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAMERTOP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!--   <link rel="stylesheet" href="css/styles.css"> -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url("img/low-poly-grid-haikei.png") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+    
+    /* index */
+    /* Header */
+    #index header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    #index .nav-brand {
+      width: 60px;
+    }
+
+    #index .fondo_menu {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    #index nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    #index nav a {
+      margin: 0 0.5rem;
+      /* Reduce el margen horizontal para mayor espacio */
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    #index nav a:hover {
+      background-color: #0056b3;
+    }
+
+    /* Showcase */
+    #index .showcase {
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      background: url("../img/showcase.jpg") no-repeat center center/cover;
+    }
+
+    #index .showcase h2 {
+      font-size: 2.5rem;
+    }
+
+    #index .fondo_menu {
+    background: url("img/lechoza.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+    /* Sections (default) */
+    #index section {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    #index .sec1>div img,
+    #index .sec2>div img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Section Grid */
+    #index .sec1 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    #index .sec1>div {
+      background: #f2f2f273;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    #index .sec2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 1rem;
+    }
+
+    #index .sec2>div {
+      background: #f2f2f273;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    /* Footer */
+    footer {
+      background: #172a97d7;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .social {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .social li {
+      margin: 0 0.5rem;
+    }
+
+    .social a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 700px) {
+
+      #index header {
+        flex-direction: column;
+      }
+
+      #index .showcase h2 {
+        font-size: 2rem;
+      }
+
+      #index .sec1 {
+        grid-template-columns: 1fr;
+      }
+
+      #index .fondoM {
+        height: 200px;
+      }
+
+      #index .fondo_menu h2 {
+        font-size: 2rem;
+      }
+
+      #index nav {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      #index nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+
+<body id="index">
+  <header>
+    <section class="menu">
+      <nav>
+        <a href="html/blasphemous.html"><i>Blasphemous</i></a>
+        <a href="html/left4dead.html">Left4Dead</a>
+        <a href="html/mine.html">Minecraft</a>
+        <a href="html/runes.html">RuneScape</a>
+        <a href="html/terraria.html">Terraria</a>
+        <a href="html/warcaft.html">Warcraft</a>
+      </nav>
+    </section>
+  </header>
+
+  <header class="fondoM">
+    <section class="fondo_menu">
+      <h2>JUEGOS EN TENDENCIA</h2>
+    </section>
+  </header>
+
+  <main>
+
+    <section class="sec1">
+
+      <div>
+        <img src="img/new1.jpg" alt="" />
+        <h3>Cyberpunk 2077.</h3>
+        <p>
+          Juego de mundo abierto futurista donde luchas por sobrevivir en una sociedad corrupta después de guerras.
+          Jugabilidad de disparos en primera persona con elementos de rol y habilidades personalizables.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/new2.jpg" alt="" />
+        <h3>God of War Ragnarök.</h3>
+        <p>
+          Juego de acción y aventuras basado en la mitología nórdica. Sigue a Kratos y su hijo Atreus en la antigua
+          Escandinavia.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/new3.png" alt="" />
+        <h3>GTA5.</h3>
+        <p>
+          Juego de acción-aventura en mundo abierto ambientado en Los Santos. Completa misiones en la ciudad y sus
+          alrededores.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/MAICRAFTNEW1.png" alt="" />
+        <h3>Red Dead Redemption 2.</h3>
+        <p>
+          Juego de acción-aventura en el oeste. Juega como Arthur Morgan y completa misiones en un mundo abierto en
+          1899.
+        </p>
+      </div>
+
+    </section><br>
+
+
+    <section class="cards">
+      <div class="content">
+        <h2>2023 PARECE ESTAR MUY BIEN</h2>
+        <p>Los juegos más esperados de 2023: Elden Ring, Pokémon Escarlata y Púrpura, God of War Ragnarök y todos los
+          bombazos de un año demoledor</p>
+      </div>
+    </section><br><br>
+
+    <section class="sec2">
+
+      <div>
+        <img src="img/new4.png" alt="" />
+        <h3>Resident Evil 2.</h3>
+        <p>
+          Juego de survival horror desarrollado por Capcom. Lanzado en 1998, es el segundo título de la saga Resident
+          Evil. Controlas a Leon S. Kennedy y Claire Redfield, quienes intentan escapar de una ciudad infectada por
+          zombis. Ha sido remasterizado y relanzado varias veces.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/new5.png" alt="" />
+        <h3>Elden Ring.</h3>
+        <p>
+          Próximo videojuego de rol de acción de FromSoftware y Bandai Namco. Dirigido por Hidetaka Miyazaki y con la
+          colaboración de George R. R. Martin. Ambientado en un mundo de fantasía abierto, presenta elementos de rol,
+          combate en tiempo real y enfoque en la narrativa. Lanzamiento en febrero de 2022.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/new6.png" alt="" />
+        <h3>Call of Duty.</h3>
+        <p>
+          Serie de videojuegos de disparos en primera persona. Desarrollada por diferentes estudios y distribuida por
+          Activision. Incluye títulos como Call of Duty: Warzone, un battle royale free-to-play basado en Call of Duty:
+          Modern Warfare.
+        </p>
+      </div>
+
+      <div>
+        <img src="img/new7.png" alt="" />
+        <h3>WWE 2K23.</h3>
+        <p>
+          Videojuego de lucha libre lanzado en 2023. Incluye una campaña centrada en John Cena y un modo WarGames.
+          Ofrece una variedad de luchadores de la WWE, tanto actuales como leyendas. Recibió críticas mixtas en
+          jugabilidad y gráficos.
+        </p>
+      </div>
+
+    </section><br>
+
+
+    <section class="youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UfBY3ATx_Ow" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+  </main><br>
+
+  <footer>
+    <ol class="social">
+      <li><a href="https://mail.google.com/mail/u/4/#inbox">Gmail</a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100091477320417">Facebook</a></li>
+      <li><a href="https://www.youtube.com/channel/UCJZjOuOEsKPp0BMuJlE2rjg">Youtube</a></li>
+      <li><a href="https://www.instagram.com/gamestop.gg/">Instagram</a></li>
+    </ol>
+  </footer>
+
+</body>
+
+</html>

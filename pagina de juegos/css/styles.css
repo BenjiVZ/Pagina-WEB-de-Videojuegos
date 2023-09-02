@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("../img/low-poly-grid-haikei.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Responsive */
+@media (max-width: 700px) {
+
+    section {
+        flex-direction: column;
+    }
+
+    section>div {
+        width: 100%;
+    }
+}
+
+
+/* Estilos generales */
+
+:not(#index) body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:not(#index) h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+:not(#index) p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Header */
+:not(#index) .menu {
+    background-color: #333333ab;
+    overflow: auto;
+}
+
+:not(#index) .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    float: left;
+}
+
+:not(#index) .menu a:hover {
+    background-color: #444;
+}
+
+/* Sections */
+:not(#index) section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 2rem;
+    padding: 2rem;
+    background-color: #f2f2f271;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+:not(#index) section:nth-child(even) {
+    background-color: #f2f2f271;
+}
+
+:not(#index) section>div {
+    padding: 1rem;
+}
+
+:not(#index) section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+:not(#index) section:nth-child(2)>div:last-child {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+/* Footer */
+footer {
+    background: #172a97d7;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.social li {
+    margin: 0 0.5rem;
+}
+
+.social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+:not(#index) section:nth-child(2)>div:last-child {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+:not(#index) .blas_fondo {
+    background: url("../img/blasfondo.jpg");
+    color: #ffffff;
+
+}
+
+:not(#index) .left_fondo {
+    background: url("../img/leftfondo.jpg");
+    color: #ffffff;
+}
+
+:not(#index) .mine_fondo {
+    background: url("../img/minefondo.jpg");
+    color: #ffffff;
+}
+
+:not(#index) .rune_fondo {
+    background: url("../img/runesfondo.jpg");
+    color: #ffffff;
+}
+
+:not(#index) .terra_fondo {
+    background: url("../img/terrafondo.jpg");
+}
+
+:not(#index) .war_fondo {
+    background: url("../img/warfondo.jpg");
+    color: #ffffff;
+}
+
+:not(#index) .blas_fondo,
+:not(#index) .left_fondo,
+:not(#index) .mine_fondo,
+:not(#index) .rune_fondo,
+:not(#index) .terra_fondo,
+:not(#index) .war_fondo {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+:not(#index) .blas_fondo h2,
+:not(#index) .left_fondo h2,
+:not(#index) .mine_fondo h2,
+:not(#index) .rune_fondo h2,
+:not(#index) .terra_fondo h2,
+:not(#index) .war_fondo h2 {
+    position: absolute;
+    top: 0;
+
+}
